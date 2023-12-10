@@ -31,8 +31,8 @@ namespace Tyuiu.ShabanovMS.Sprint6.Task6.V11
 
         private void buttonDone_SMS_Click(object sender, EventArgs e)
         {
-            string path = @"C:\DataSprint6\InPutFileTask6V11.txt";
-            textBoxResult_SMS.Text = ds.CollectTextFromFile(path);
+            //string path = @"C:\DataSprint6\InPutFileTask6V11.txt";
+            textBoxResult_SMS.Text = ds.CollectTextFromFile(openFilePath);
         }
 
         private void buttonHelp_SMS_Click(object sender, EventArgs e)
